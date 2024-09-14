@@ -267,7 +267,6 @@ int ClangLoader::parse(
                                    "-Wno-unknown-warning-option",
 #if defined(__x86_64__) || defined(__i386__)
                                    "-Wno-duplicate-decl-specifier",
-                                   "-fcf-protection",
 #endif
                                    "-fno-color-diagnostics",
                                    "-fno-unwind-tables",
